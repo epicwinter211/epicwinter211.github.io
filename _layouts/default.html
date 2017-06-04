@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <ul class="nav">
+            <nav class="center">
+              <li class="nav nav-brand"><a href="/index.html">oriont</a></li>
+              <li class="nav nav-bold"><a href="/index.html">Home</a></li>
+              <li class="nav item"><a href="/blogs.html">Blog</a></li>
+           <!--   <li class="nav dropdown">
+                <a href="#" class="dropbtn">Dropdown</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                </li>-->
+              <li class="nav item" style="float:right"><a class="active" href="/about.html">About</a></li>
+            </nav>
+        </ul>
+        <div class="center">
+          <div class="header"><h1>{{ page.title }}</h1></div>
+            {{ content }}
+        </div>
+    </body>
+</html>
